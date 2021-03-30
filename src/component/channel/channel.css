@@ -1,0 +1,113 @@
+/* channel */
+
+.channel-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .channel-header {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    padding: 20px 0;
+  }
+  
+  .channel-header img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .channel-username span {
+    display: block;
+    margin-left: 20px;
+  }
+  
+  .channel-username span:first-child {
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 101.5%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  
+  .channel-username span:last-child {
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #F0F0F0;
+  }
+  
+  .btn-channel {
+    cursor: pointer;
+    display: block;
+    padding: 10px 20px;
+    background: #FF7A00;
+    border-radius: 5px;
+    border: none;
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+
+  .btn-channel:hover {
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  
+  .channel-nav {
+    display: flex;
+    color: #ffffff;
+    padding-left: 0;
+    border-bottom: 1px solid #C2C2C2;
+    padding-bottom: 10px;
+    
+  }
+  
+  .channel-nav li {
+    padding-left: 0;
+    list-style-type: none;
+    margin-right: 30px;
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+    cursor: pointer;
+  }
+  
+  .channel-description p {
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 101.5%;
+    /* or 17px */
+  
+    text-align: justify;
+  
+    color: #FFFFFF;
+  }
+  
+  .channel-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid #C2C2C2; 
+  }
+  
+  /* end channel */

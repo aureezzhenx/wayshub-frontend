@@ -1,0 +1,131 @@
+/* comment */
+.comment-input {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-bottom: 20px;
+   
+  }
+  
+  .comment-input img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .comment-input textarea {
+    justify-self: flex-end;
+    width: 99%;
+    height: 50px;
+    padding: 10px;
+    background: #000000;
+    border: none;
+    border-bottom: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.4s;
+    resize: none;
+  }
+  
+  .comment-input textarea:focus{
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 3px -4px #FF7A00;
+    border-bottom: 2px solid #FF7A00;
+    height: 80px;
+    
+  }
+  
+  .comment-input textarea:focus::-webkit-input-placeholder{
+    color: transparent;
+  }
+  
+  
+  .comment-form .button {
+    display: block;
+    margin-left:auto;
+    padding: 10px 20px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .comment-form .button:hover {
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background 0.2s ease-in-out;
+  }
+  /* end comment*/
+  
+  
+  /* comment list*/
+  .comment-list {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+
+  
+  .comment-thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .comment-body {
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    padding-top: 0;
+    background-color: #151515;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  
+  .comment-body h2 {
+    line-height: 0;
+    font-family: Roboto,Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+  }
+  
+  .comment-body p {
+    font-family: Roboto,Arial, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+
+  .triangle-comment {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid  #151515;
+    transform: translateX(60px) rotate(-90deg);
+}
+
+.comment-menu button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.comment-menu img {
+  width: 30px;
+  height: 30px;
+}
+
+  /*end comment list */

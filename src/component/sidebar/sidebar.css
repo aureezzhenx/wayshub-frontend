@@ -1,0 +1,94 @@
+/* sidebar */
+
+.sidebar {
+    padding: 40px;
+    height: 100%;
+    background: #151515;
+}
+  
+.sidebar-logo {
+  margin-bottom: 30px;
+}
+
+.sidebar-list {
+  color: #ffffff;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar-list-item {
+  margin-bottom: 28px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sidebar-link span {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.sidebar-link span:hover {
+  font-size: 18px;
+  color: #FF7A00;
+  transition: font-size 0.2s;
+}
+
+.sidebar-link img {
+  margin-right: 20px;
+}
+
+.sidebar-list-title {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 101.5%;
+  /* or 24px */
+  color: #FF7A00;
+  margin-bottom: 25px;
+}
+
+.sidebar-photo-profile {
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar-username {
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width:auto;
+  min-width:100px;
+  max-width:65%;
+  white-space:nowrap;
+}
+
+.show-more {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 101.5%;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.sidebar-link span.active {
+  color: #FF7A00;
+}
+  
+  /* end sidebar */

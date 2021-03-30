@@ -1,0 +1,373 @@
+html, body {
+  height: 100%;
+  background: #000000;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.App {
+  background: #000000;
+}
+
+.active {
+  color: #FF7A00;
+}
+
+/* register login*/
+
+.landing-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #ffffff;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-welcome {
+  justify-self: flex-end;
+  margin-right: 100px;
+
+}
+
+.landing-welcome img {
+  display: block;
+  margin-bottom: 61px;
+}
+
+/* .button {
+  cursor: pointer;
+  display: block;
+  padding: 13px 40px;
+  background: #FF7A00;
+  border-radius: 5px;
+  border: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+} */
+
+
+.landing-form {
+  margin-left: 100px;
+  justify-self: flex-start;
+  background: #161616;
+  border-radius: 10px;
+  width: 416px;
+  padding: 20px 33px 44px 33px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.landing-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.landing-form textarea {
+  font-family: Avenir, sans-serif;
+  display: block;
+  width: 100%;
+  height: 122px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.landing-form input:focus, .landing-form textarea:focus {
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0 0 3px 1px #FF7A00;
+  border: 2px solid #FF7A00;
+}
+
+.landing-form button {
+  width: 100%;
+}
+
+/* end register login */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 259px 1fr;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+.card-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.show-more-videos-wrapper {
+  display: grid;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.show-more-videos-wrapper button {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* form add video edit chanel */
+
+.form-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-container h1 {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.form-container textarea {
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #D2D2D2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 177px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 16px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.form-container textarea::placeholder{
+  font-family: Avenir, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #B1B1B1;
+}
+
+.inline-input {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 10px;
+}
+
+.inline-input input:first-child {
+  width: 100%;
+  font-family: Avenir, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.inline-input input:first-child::placeholder {
+  font-family: Avenir, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #B1B1B1;
+}
+
+.file-upload {
+  display: grid;
+  margin-bottom: 20px;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  justify-self:flex-end;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 0 20px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.file-upload label {
+  overflow-x: hidden;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #B1B1B1;
+  justify-self: center;
+  max-width: 140px;
+
+}
+
+.file-upload input {
+  display: none;
+}
+
+.file-upload img {
+  display: block;
+  justify-self: flex-end;
+  margin-left: 30px;
+  
+}
+
+.input-file-container {
+  display: grid;
+  grid-template-columns: 20%; 
+}
+
+.input-file {
+  display: grid;
+  margin-bottom: 20px;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+
+.input-file input {
+  display: none;
+}
+
+.input-file label {
+  overflow-x: hidden;
+  justify-self: flex-start;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #B1B1B1;
+  justify-self: flex-start;
+  max-width: 140px;
+
+}
+
+
+.input-file img {
+  display: block;
+  justify-self: flex-end;
+}
+
+.form-container button {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.form-container button:hover {
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #BCBCBC;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: background 0.2s ease-in-out;
+}
+
+.form-container input:focus, .form-container textarea:focus {
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0 0 3px 1px #FF7A00;
+  border: 2px solid #FF7A00;
+}
+
+/* end form add video edit chanel */
+
+
+/* cover */
+.cover {
+  width: 100%;
+}
+
+.cover img {
+  width: 100%;
+  height: 182px;
+  object-fit: cover;
+}
+/* end cover */
+
+
+.show-more-videos {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  justify-self: flex-end;
+  display: block;
+  width: 80%;
+  cursor: pointer;
+  outline: none;
+}
+
+.show-more-videos:hover {
+  color: #FF7A00;
+  transition: all 0.3s;
+}
+
+.empty-subscribtion {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.empty-subscribtion img {
+  border: 2px solid #FF7A00;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.empty-subscribtion h3 {
+  text-align: center;
+  color: #FF7A00;
+}
+
+.empty-subscribtion p {
+  text-align: center;
+  color: #ffffff;
+}

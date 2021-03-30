@@ -1,0 +1,32 @@
+.preview-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.preview-image {
+    padding: 14px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.preview-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.preview-image h2 {
+    font-size: 19px;
+    margin-top: 0;
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 2px solid #D2D2D2;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+}
