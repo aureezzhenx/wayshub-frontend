@@ -5,7 +5,8 @@ FROM node:14
 WORKDIR /usr/src/app/dumbplay_frontend
 COPY . .
 
-RUN npm i & npm run build
+RUN npm i
+RUN npm run build
 RUN sed -i "4s/localhost/api.jouzie.onlinecamp.id/" src/config/api.js
 
 EXPOSE 3000
