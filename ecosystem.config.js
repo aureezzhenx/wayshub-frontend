@@ -3,7 +3,7 @@ module.exports =
 	apps :
 	[
 		{
-			name: 'wayshub',
+			name: 'wayshub-frotend',
 			script: 'npm',
 			args: 'start',
 		}
